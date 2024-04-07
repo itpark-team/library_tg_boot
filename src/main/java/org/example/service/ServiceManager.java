@@ -43,6 +43,13 @@ public class ServiceManager {
         methods.put(State.WaitingAuthorMiddleShow, showAuthorsLogic::processWaitingAuthorMiddleShow);
         methods.put(State.WaitingAuthorLastShow, showAuthorsLogic::processWaitingAuthorLastShow);
 
+        methods.put(State.WaitingInputBookName, addNewBookLogic::processWaitingInputBookName);
+        methods.put(State.WaitingInputBookCreatedYear, addNewBookLogic::processWaitingInputBookCreatedYear);
+        methods.put(State.WaitingApproveBookData, addNewBookLogic::processWaitingApproveBookData);
+
+        methods.put(State.WaitingBookFirstShow, showBooksLogic::processWaitingBookFirstShow);
+        methods.put(State.WaitingBookMiddleShow, showBooksLogic::processWaitingBookMiddleShow);
+        methods.put(State.WaitingBookLastShow, showBooksLogic::processWaitingBookLastShow);
 
     }
 

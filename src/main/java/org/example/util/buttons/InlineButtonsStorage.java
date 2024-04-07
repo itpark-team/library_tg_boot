@@ -11,7 +11,7 @@ public class InlineButtonsStorage {
 
     public final static InlineButton AddNewAuthor = new InlineButton("Добавить автора", "AddNewAuthor");
 
-    public final static InlineButton ShowBooks = new InlineButton("Показать книна автора", "ShowBooks");
+    public final static InlineButton ShowBooks = new InlineButton("Показать книги автора", "ShowBooks");
 
     public final static InlineButton AddNewBook = new InlineButton("Добавить книгу автора", "AddNewBook");
 
@@ -20,8 +20,8 @@ public class InlineButtonsStorage {
 
     public final static InlineButton FinishShowAuthor = new InlineButton("Закончить просмотр", "FinishShowAuthor");
 
-    public final static InlineButton ShowNextBook = new InlineButton("Следующий автор", "ShowNextBook");
-    public final static InlineButton ShowPrevBook = new InlineButton("Предыдущий автор", "ShowPrevBook");
+    public final static InlineButton ShowNextBook = new InlineButton("Следующая книга", "ShowNextBook");
+    public final static InlineButton ShowPrevBook = new InlineButton("Предыдущая книга", "ShowPrevBook");
 
     public final static InlineButton FinishShowBook = new InlineButton("Закончить просмотр", "FinishShowBook");
 }
